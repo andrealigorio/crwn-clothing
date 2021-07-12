@@ -4,11 +4,15 @@ const invertedButtonStyle = css`
     background-color: white;
     color: black;
     border: 1px solid black;
+    position: absolute;
+    bottom: 100px;
+    opacity: 0.7;
 
         &:hover {
         background-color: black;
         color: white;
         border: none;
+        opacity: 0.8;
         }
 `;
 
